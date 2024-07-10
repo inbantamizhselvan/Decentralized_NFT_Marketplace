@@ -14,5 +14,12 @@
   "type": "module",
   "workspaces": [
     "src/opend_frontend"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "react-bootstrap": "^2.10.3",
+    "react-hook-form": "^7.52.0",
+    "react-router-dom": "^6.24.0"
+  }
 }

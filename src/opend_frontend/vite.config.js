@@ -38,6 +38,10 @@ export default defineConfig({
           new URL("../declarations", import.meta.url)
         ),
       },
+      { 
+        find: '@public', 
+        replacement: fileURLToPath(new URL('public/', import.meta.url)) 
+      },
     ],
   },
 });
